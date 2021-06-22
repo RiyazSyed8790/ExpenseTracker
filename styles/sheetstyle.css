@@ -1,5 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+*,*::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
 body{
     font-family: 'Dela Gothic One', cursive;
     font-size: 1rem;
+    height: 98vh;
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    min-height: 20rem;
+    min-width: 30rem ;
+    border: 2px solid black;
+   
+}
+.container header{
+    text-align: center;
+    margin: 1rem 0rem;
+    font-size: 2rem;
+}
+.btns ul li{
+    
+    list-style-type: none;
+    margin-left: 0rem;
+    padding-left: 0rem;
+}
+.btns ul{
+    margin: 3rem 2rem;
+    border: 2px solid red;
+}
+.btns li button{
+    width: 10rem;
+    font-size: 1rem;
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
+    margin: 0.25rem 0;
+}
+/*.btns div{
+  border: 2px solid blue;
+  padding: 0 1rem;
+  margin: 1rem 1rem;
+  min-width: 8rem;
+  
+}
+.btns div header{
+    padding: 0 1rem;
+    margin: 0 2rem;
+    font-size: 1rem;
+}*/
+main {
+    flex: 1;
+    padding: 0.5rem 1rem;
+  }
+.btns{
+    display: flex;
+    
+    
+}
+h2 {
+    border-bottom: 1px solid var(--white-color);
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+
+.users{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
